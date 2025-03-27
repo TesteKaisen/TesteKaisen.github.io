@@ -3,42 +3,45 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Meu Portfólio</title>
-  <link rel="stylesheet" href="styles.css"> <!-- Se você usar um CSS externo -->
+  <title>Portfólio | Engenheiro de Computação</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <header>
-    <h1>Henrique - Desenvolvedor</h1>
-    <nav>
-      <ul>
-        <li><a href="#sobre">Sobre</a></li>
-        <li><a href="#projetos">Projetos</a></li>
-        <li><a href="#contato">Contato</a></li>
-      </ul>
+  <header class="header">
+    <h1 class="logo">Portfólio<span>.</span></h1>
+    <nav class="nav">
+      <a href="#inicio">Início</a>
+      <a href="#pesquisas">Pesquisas</a>
+      <a href="#projetos">Projetos</a>
+      <a href="#publicacoes">Publicações</a>
+      <a href="#contato">Contato</a>
     </nav>
   </header>
-  
-  <section id="sobre">
-    <h2>Sobre Mim</h2>
-    <p>Sou um desenvolvedor focado em...</p>
+
+  <section id="inicio" class="hero">
+    <div class="hero-text">
+      <p class="tagline">Engenheiro • IA • BCI</p>
+      <h2>Transformando ideias em <span>inovação</span></h2>
+      <p class="description">
+        Olá, sou um engenheiro de computação focado em inteligência artificial e interfaces cérebro-computador. Busco soluções criativas para problemas complexos conectando mente e máquina.
+      </p>
+      <div class="buttons">
+        <a href="#projetos" class="btn primary">Ver projetos</a>
+        <a href="#contato" class="btn secondary">Entre em contato</a>
+      </div>
+      <div class="links">
+        <a href="https://github.com" target="_blank">GitHub</a>
+        <a href="https://www.researchgate.net" target="_blank">ResearchGate</a>
+        <a href="https://www.linkedin.com" target="_blank">LinkedIn</a>
+      </div>
+    </div>
+    <div class="hero-image">
+      <img src="https://images.unsplash.com/photo-1601758003122-58e4a8f1e6c4" alt="Engenharia e IA">
+    </div>
   </section>
 
-  <section id="projetos">
-    <h2>Meus Projetos</h2>
-    <p>Confira meus projetos abaixo:</p>
-    <ul>
-      <li><a href="https://github.com/seu-usuario/projeto1">Projeto 1</a></li>
-      <li><a href="https://github.com/seu-usuario/projeto2">Projeto 2</a></li>
-    </ul>
-  </section>
-
-  <section id="contato">
-    <h2>Contato</h2>
-    <p>Você pode me encontrar em <a href="mailto:seuemail@example.com">seuemail@example.com</a></p>
-  </section>
-
-  <footer>
-    <p>&copy; 2025 Henrique. Todos os direitos reservados.</p>
+  <footer class="footer">
+    &copy; 2025 Engenheiro de Computação. Todos os direitos reservados.
   </footer>
 </body>
 </html>
